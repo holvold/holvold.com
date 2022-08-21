@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+}
+
+#dark {
+    background-color: #3A3131;
+}
+
+#light {
+    background-color: #B0AEAE;
+}
+
+.App-header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#tsparticles {
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0px;
+}
