@@ -1,18 +1,16 @@
 {
-  "background": {
-    "color": {
-      "value": "#282c34"
-    }
+  "fullScreen": {
+    "enable": false
   },
   "fpsLimit": 120,
   "interactivity": {
     "events": {
       "onClick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "onHover": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "resize": true
@@ -45,14 +43,14 @@
       "width": 1
     },
     "collisions": {
-      "enable": true
+      "enable": false
     },
     "move": {
       "direction": "none",
       "enable": true,
-      "outMode": "bounce",
+      "outMode": "out",
       "random": false,
-      "speed": 6,
+      "speed": 2,
       "straight": false
     },
     "number": {

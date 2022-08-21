@@ -1,0 +1,23 @@
+.link-icons {
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+#light .nameText {
+  text-shadow: 3px 3px #7F7F7F
+}
+
+#dark .nameText {
+  text-shadow: 3px 3px #291111
+}
+
+#light .link-icons:hover {
+  color: #f7e4e4;
+  text-shadow: 3px 3px #7F7F7F
+}
+
+#dark .link-icons:hover {
+  color: #f7e4e4;
+  text-shadow: 3px 3px #291111
+}
